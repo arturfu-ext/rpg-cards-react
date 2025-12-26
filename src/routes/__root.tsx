@@ -37,6 +37,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang="en">
 			<head>
+				<title>RPG Cards</title>
 				<HeadContent />
 			</head>
 			<body>
