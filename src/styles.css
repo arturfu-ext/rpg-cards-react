@@ -90,6 +90,8 @@ code {
 }
 
 @theme inline {
+  --font-modesto: "modesto-condensed", serif;
+  --font-modestolite: "modestolite", serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
