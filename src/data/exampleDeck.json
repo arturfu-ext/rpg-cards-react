@@ -1,0 +1,152 @@
+{
+	"deckName": "example",
+	"cards": [
+		{
+			"count": 1,
+			"color": "#696969",
+			"title": "Mace of Terror",
+			"icon": "crossed-swords",
+			"icon_back": "crossed-swords",
+			"contents": [
+				"subtitle | Weapon (Mace), Rare (Requires Attunement)",
+				"property | Damage | 1d6 Bludgeoning",
+				"property | Mastery | <span class=\"help help--hover\" onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\" onclick=\"Renderer.hover.handleLinkClick(event, this, {isForceOpenPermanent: true})\" onwheel=\"Renderer.hover.handleLinkWheel(event, this)\" ondragstart=\"Renderer.hover.handleLinkDragStart(event, this)\" data-vet-page=\"itemMastery\" data-vet-source=\"XPHB\" data-vet-hash=\"sap_xphb\" data-vet-is-faux-page=\"true\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >Sap</span>",
+				"property | Type | Simple Weapon, Melee Weapon",
+				"property | Weight | 4 lb.",
+				"rule",
+				"text | This magic weapon has 3 charges and regains 1d3 expended charges daily at dawn. While holding the weapon, you can take a Magic action and expend 1 charge to release a wave of terror from it. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the Frightened condition for 1 minute. While Frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't make Opportunity Attacks. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can take the Dodge action. At the end of each of its turns, a creature repeats the save, ending the effect on itself on a success.",
+				"boxes | 3 | 1.2"
+			],
+			"tags": ["item", "DMG'24", "simple weapon", "melee weapon"],
+			"image": "img/items/XDMG/Mace of Terror.webp"
+		},
+		{
+			"count": 1,
+			"color": "#824dff",
+			"title": "+1 Mace",
+			"icon": "crossed-swords",
+			"icon_back": "crossed-swords",
+			"contents": [
+				"subtitle | Weapon (Mace), Uncommon",
+				"property | Damage | 1d6 Bludgeoning",
+				"property | Mastery | <span class=\"help help--hover\" onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\" onclick=\"Renderer.hover.handleLinkClick(event, this, {isForceOpenPermanent: true})\" onwheel=\"Renderer.hover.handleLinkWheel(event, this)\" ondragstart=\"Renderer.hover.handleLinkDragStart(event, this)\" data-vet-page=\"itemMastery\" data-vet-source=\"XPHB\" data-vet-hash=\"sap_xphb\" data-vet-is-faux-page=\"true\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >Sap</span>",
+				"property | Type | Simple Weapon, Melee Weapon",
+				"property | Weight | 4 lb."
+			],
+			"tags": ["item", "DMG'24", "simple weapon", "melee weapon"],
+			"image": null
+		},
+		{
+			"count": 1,
+			"color": "#824dff",
+			"title": "Adamantine Mace",
+			"icon": "crossed-swords",
+			"icon_back": "crossed-swords",
+			"contents": [
+				"subtitle | Weapon (Mace), Uncommon",
+				"property | Damage | 1d6 Bludgeoning",
+				"property | Mastery | <span class=\"help help--hover\" onmouseover=\"Renderer.hover.pHandleLinkMouseOver(event, this)\" onmouseleave=\"Renderer.hover.handleLinkMouseLeave(event, this)\" onmousemove=\"Renderer.hover.handleLinkMouseMove(event, this)\" onclick=\"Renderer.hover.handleLinkClick(event, this, {isForceOpenPermanent: true})\" onwheel=\"Renderer.hover.handleLinkWheel(event, this)\" ondragstart=\"Renderer.hover.handleLinkDragStart(event, this)\" data-vet-page=\"itemMastery\" data-vet-source=\"XPHB\" data-vet-hash=\"sap_xphb\" data-vet-is-faux-page=\"true\" ontouchstart=\"Renderer.hover.handleTouchStart(event, this)\" >Sap</span>",
+				"property | Type | Simple Weapon, Melee Weapon",
+				"property | Weight | 4 lb."
+			],
+			"tags": ["item", "DMG'24", "simple weapon", "melee weapon"],
+			"image": null
+		},
+		{
+			"count": 1,
+			"color": "#4a6898",
+			"title": "Mage Hand",
+			"icon": "magic-swirl",
+			"icon_back": "magic-swirl",
+			"contents": [
+				"subtitle | Conjuration Cantrip",
+				"rule",
+				"property | Casting Time | Action",
+				"property | Range | 30 feet",
+				"property | Components | V, S",
+				"property | Duration | 1 minute",
+				"rule",
+				"text | A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.",
+				"text | When you cast the spell, you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial.",
+				"text | As a Magic action on your later turns, you can control the hand thus again. As part of that action, you can move the hand up to 30 feet.",
+				"text | The hand can't attack, activate magic items, or carry more than 10 pounds."
+			],
+			"tags": [
+				"spell",
+				"PHB'24",
+				"Cantrips",
+				"Conjuration",
+				"Bard",
+				"Sorcerer",
+				"Warlock",
+				"Wizard",
+				"Artificer"
+			],
+			"image": null
+		},
+		{
+			"count": 1,
+			"color": "#4a6898",
+			"title": "Arcane Lock",
+			"icon": "magic-swirl",
+			"icon_back": "magic-swirl",
+			"contents": [
+				"subtitle | Level 2 Abjuration",
+				"rule",
+				"property | Casting Time | Action",
+				"property | Range | Touch",
+				"property | Components | V, S, M (gold dust worth 25+ GP, which the spell consumes)",
+				"property | Duration | Until dispelled",
+				"rule",
+				"text | You touch a closed door, window, gate, container, or hatch and magically lock it for the duration. This lock can't be unlocked by any nonmagical means. You and any creatures you designate when you cast the spell can open and close the object despite the lock. You can also set a password that, when spoken within 5 feet of the object, unlocks it for 1 minute."
+			],
+			"tags": [
+				"spell",
+				"PHB'24",
+				"2nd level",
+				"Abjuration",
+				"Wizard",
+				"Artificer"
+			],
+			"image": null
+		},
+		{
+			"count": 1,
+			"color": "#696969",
+			"title": "Thieves' Tools",
+			"icon": "crossed-swords",
+			"icon_back": "crossed-swords",
+			"contents": [
+				"subtitle | Tool",
+				"property | Weight | 1 lb.",
+				"property | Value | 25 GP",
+				"rule",
+				"bullet | <b>Ability:</b> Dexterity",
+				"bullet | <b>Utilize:</b> Pick a lock (DC 15), or disarm a trap (DC 15)",
+				"text | If you have proficiency with a tool, add your Proficiency Bonus to any ability check you make that uses the tool. If you have proficiency in a skill that's used with that check, you have Advantage on the check too."
+			],
+			"tags": ["item", "PHB'24", "tool"],
+			"image": null
+		},
+		{
+			"count": 1,
+			"color": "#696969",
+			"title": "Holy Symbol of Ravenkind",
+			"icon": "crossed-swords",
+			"icon_back": "crossed-swords",
+			"contents": [
+				"subtitle | Wondrous Item, Legendary (Requires Attunement by a Cleric or Paladin of Good Alignment)",
+				"rule",
+				"text | The Holy Symbol of Ravenkind is a unique holy symbol sacred to the good-hearted faithful of Barovia. It predates the establishment of any church in Barovia. According to legend, it was delivered to a paladin named Lugdana by a giant raven—or an angel in the form of a giant raven. Lugdana used the holy symbol to root out and destroy nests of vampires until her death. The high priests of Ravenloft kept and wore the holy symbol after Lugdana's passing.",
+				"text | The holy symbol is a platinum amulet shaped like the sun, with a large crystal embedded in its center.",
+				"text | The holy symbol has 10 charges for the following properties. It regains 1d6 + 4 charges daily at dawn.",
+				"description | Hold Vampires | As an action, you can expend 1 charge and present the holy symbol to make it flare with holy power. Vampires and vampire spawn within 30 feet of the holy symbol when it flares must make a DC 15 Wisdom saving throw. On a failed save, a target is paralyzed for 1 minute. It can repeat the saving throw at the end of its turns to end the effect on itself.",
+				"description | Turn Undead | If you have the Turn Undead or the Turn the Unholy feature, you can expend 3 charges when you present the holy symbol while using that feature. When you do so, undead have disadvantage on their saving throws against the effect.",
+				"description | Sunlight | As an action, you can expend 5 charges while presenting the holy symbol to make it shed bright light in a 30-foot radius and dim light for an additional 30 feet. The light is sunlight and lasts for 10 minutes or until you end the effect (no action required).",
+				"boxes | 10 | 1.2"
+			],
+			"tags": ["item", "CoS", "wondrous item"],
+			"image": "img/items/CoS/Holy Symbol of Ravenkind.webp"
+		}
+	]
+}
