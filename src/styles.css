@@ -92,6 +92,7 @@ code {
 @theme inline {
   --font-modesto: "modesto-condensed", serif;
   --font-modestolite: "modestolite", serif;
+  --background-image-texture: url("/background_texture.png");
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);

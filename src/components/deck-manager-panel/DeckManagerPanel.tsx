@@ -67,15 +67,15 @@ function FooterButton({ icon: Icon, label }: FooterButtonProps) {
 }*/
 
 import { Plus } from "lucide-react";
+import { Button } from "@/components/ui/button.tsx";
 import { Select, SelectTrigger, SelectValue } from "@/components/ui/select.tsx";
 
 function DeckManagerPanel() {
 	return (
-		<aside className="flex flex-col gap-3">
+		<aside className="h-full flex flex-col gap-3">
 			<header className="shrink-0">
-				<h2 className="font-modesto text-3xl tracking-wide">Deck Manager</h2>
+				<h2 className="font-modesto text-3xl tracking-wide">DECK MANAGER</h2>
 			</header>
-
 			{/* Content */}
 			<div className="flex flex-1 flex-col gap-3 overflow-hidden">
 				{/* Deck Selector */}
@@ -91,13 +91,13 @@ function DeckManagerPanel() {
 				</div>
 
 				{/* New Card Button */}
-				<button
-					type="button"
-					className="flex shrink-0 items-center justify-center gap-2 rounded-lg border border-dashed border-slate-500 bg-slate-700/30 px-4 py-3 text-sm text-slate-300 transition-colors hover:border-slate-400 hover:bg-slate-700/50 hover:text-white"
+				<Button
+					variant="outline"
+					className="shrink-0 border-dashed border-slate-500 bg-slate-700/30 text-slate-300 hover:border-slate-400 hover:bg-slate-700/50 hover:text-white"
 				>
-					<Plus className="h-4 w-4" />
-					<span>New Card</span>
-				</button>
+					<Plus />
+					New Card
+				</Button>
 
 				{/* Cards List */}
 				<div className="flex-1 space-y-1 overflow-y-auto">
@@ -111,13 +111,12 @@ function DeckManagerPanel() {
 					{/*))}*/}
 				</div>
 			</div>
-
-			{/* Footer */}
-			{/*<footer className="flex flex-shrink-0 border-t border-slate-700/50 px-2 py-2">*/}
-			{/*	<FooterButton icon={Upload} label="Import" />*/}
-			{/*	<FooterButton icon={Download} label="Export" />*/}
-			{/*	<FooterButton icon={Settings} label="Settings" />*/}
-			{/*</footer>*/}
+			Footer
+			<footer className="flex shrink-0 border-t border-slate-700/50 px-2 py-2">
+				{/*<FooterButton icon={Upload} label="Import" />*/}
+				{/*<FooterButton icon={Download} label="Export" />*/}
+				{/*<FooterButton icon={Settings} label="Settings" />*/}
+			</footer>
 		</aside>
 	);
 }
